@@ -1,260 +1,257 @@
 const questions = [
 
-/* ================= PART 1 : MCQ ================= */
+/* ================= PART 1 : MCQ (1–20) ================= */
 
 {
   type: "mcq",
-  q: "Which management function involves setting goals and deciding in advance what is to be done?",
-  options: ["Organizing", "Planning", "Staffing", "Controlling"],
+  q: "Management is the process of achieving organizational goals through the use of resources ________.",
+  options: ["Quickly", "Effectively and efficiently", "Cheaply", "Randomly"],
   a: 1
 },
 {
   type: "mcq",
-  q: "Management is the process of using what you have to achieve:",
-  options: ["Profits", "Goals", "Fame", "Complexity"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Which level of management is responsible for the overall strategic policies and objectives?",
-  options: ["Lower Level", "Middle Level", "Top Level", "First-line Level"],
+  q: "Which level of management is responsible for long-term decisions and strategic plans?",
+  options: ["First-line management", "Middle management", "Top management", "Operational management"],
   a: 2
 },
 {
   type: "mcq",
-  q: "Technical skills are most important at which level of management?",
-  options: ["Top Level", "Middle Level", "Lower Level", "Executive Level"],
-  a: 2
-},
-{
-  type: "mcq",
-  q: "The Director of Nursing Service Department belongs to which level?",
-  options: ["Top Level", "Middle Level", "Lower Level", "Operational Level"],
+  q: "The Management Process consists of which sequence of functions?",
+  options: [
+    "Planning, Organizing, Staffing, Directing, Controlling",
+    "Planning, Directing, Staffing, Organizing, Controlling",
+    "Controlling, Planning, Staffing, Directing, Organizing",
+    "Staffing, Planning, Organizing, Controlling, Directing"
+  ],
   a: 0
 },
 {
   type: "mcq",
-  q: "Which principle states that an employee should receive orders from only one superior?",
-  options: ["Unity of Direction", "Unity of Command", "Scalar Chain", "Division of Work"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "What is the Scalar Chain in management?",
+  q: "Efficiency in management refers to:",
   options: [
-    "A tool for measuring productivity",
-    "The line of authority from top management to the lowest ranks",
-    "A method for financial accounting",
-    "The physical layout of an office"
+    "Achieving the goals regardless of cost",
+    "Relationship between inputs and outputs (doing things right)",
+    "Making the most profit",
+    "Hiring the most employees"
   ],
   a: 1
 },
 {
   type: "mcq",
-  q: "Matching the right man for the right job is the definition of:",
-  options: ["Planning", "Organizing", "Staffing", "Directing"],
-  a: 2
-},
-{
-  type: "mcq",
-  q: "Management is considered a Science because it has:",
+  q: "Effectiveness is defined as:",
   options: [
-    "Personal creativity",
-    "An organized body of knowledge",
-    "Emotional intelligence",
-    "Random decision making"
+    "Reducing the number of staff",
+    "Achieving the intended goals (doing the right things)",
+    "Saving money only",
+    "Spending all resources"
   ],
   a: 1
 },
 {
   type: "mcq",
-  q: "Which of the following is NOT a category of resource?",
-  options: ["Financial", "Human", "Weather", "Information"],
+  q: "Which management skill involves the ability to work well with other people?",
+  options: ["Technical skills", "Conceptual skills", "Human skills", "Diagnostic skills"],
   a: 2
 },
 {
   type: "mcq",
-  q: "The management function that involves monitoring performance and comparing it to standards is:",
-  options: ["Planning", "Leading", "Controlling", "Organizing"],
+  q: "Technical skills are most important for which level of management?",
+  options: ["Top-level managers", "Middle-level managers", "First-line managers", "CEOs"],
   a: 2
 },
 {
   type: "mcq",
-  q: "Which skill involves the ability to analyze and diagnose complex situations?",
-  options: ["Technical Skill", "Human Skill", "Conceptual Skill", "Mechanical Skill"],
+  q: "The ability to see the organization as a whole is known as:",
+  options: ["Human skill", "Technical skill", "Conceptual skill", "Operational skill"],
   a: 2
 },
 {
   type: "mcq",
-  q: "Division of Work leads to:",
-  options: ["Confusion", "Specialization and efficiency", "High costs", "Centralization"],
+  q: "Who is considered the Father of Scientific Management?",
+  options: ["Henri Fayol", "Frederick Taylor", "Max Weber", "Abraham Maslow"],
   a: 1
 },
 {
   type: "mcq",
-  q: "A Head Nurse is typically categorized under which management level?",
-  options: ["Top Level", "Middle Level", "Lower Level", "Administrative Level"],
-  a: 2
-},
-{
-  type: "mcq",
-  q: "Which principle emphasizes group interest over individual interest?",
-  options: ["Equity", "Initiative", "Subordination of individual interests", "Remuneration"],
-  a: 2
-},
-{
-  type: "mcq",
-  q: "Anything minus management equals:",
-  options: ["Success", "Nothing", "Double profit", "More resources"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Which function involves giving instructions and motivating staff?",
-  options: ["Staffing", "Directing", "Planning", "Controlling"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Stability of tenure of personnel refers to:",
-  options: ["Changing jobs frequently", "Job security", "Increasing salaries", "Punishing employees"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "A major cause of management failure is:",
-  options: ["Too much teamwork", "Poor leadership skills", "High trust", "Fast decision making"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Equity in management means:",
+  q: "The principle of Unity of Command means:",
   options: [
-    "Treating employees with kindness and justice",
-    "Giving everyone the same salary",
+    "All employees work together",
+    "Each subordinate receives orders from one superior",
+    "Managers have many bosses",
+    "Decisions are made by a group"
+  ],
+  a: 1
+},
+{
+  type: "mcq",
+  q: "According to Henri Fayol, there are how many principles of management?",
+  options: ["5", "10", "14", "20"],
+  a: 2
+},
+{
+  type: "mcq",
+  q: "Middle-level managers are primarily responsible for:",
+  options: [
+    "Creating the hospital vision",
+    "Implementing policies and coordinating supervisors",
+    "Direct patient care only",
+    "Managing national budgets"
+  ],
+  a: 1
+},
+{
+  type: "mcq",
+  q: "Administration is often associated with:",
+  options: [
+    "Lower-level tasks",
+    "Policy-making and determinative functions",
+    "Daily technical work",
+    "Staffing only"
+  ],
+  a: 1
+},
+{
+  type: "mcq",
+  q: "The Scalar Chain principle refers to:",
+  options: [
+    "Type of equipment",
+    "Formal line of authority from top to bottom",
+    "Salary scale",
+    "Shift rotation"
+  ],
+  a: 1
+},
+{
+  type: "mcq",
+  q: "Esprit de Corps promotes:",
+  options: [
+    "Individual competition",
+    "Team spirit and harmony",
     "Strict punishment",
-    "Only top management has rights"
+    "High costs"
   ],
-  a: 0
+  a: 1
 },
 {
   type: "mcq",
-  q: "Middle-level managers act as intermediaries between:",
+  q: "Which manager role includes disturbance handler and resource allocator?",
+  options: ["Interpersonal", "Informational", "Decisional", "Technical"],
+  a: 2
+},
+{
+  type: "mcq",
+  q: "Management is considered ________.",
+  options: ["Only an Art", "Only a Science", "Both an Art and a Science", "Neither"],
+  a: 2
+},
+{
+  type: "mcq",
+  q: "Span of Control refers to:",
   options: [
-    "Customers and top management",
-    "Top and lower management",
-    "Government and employees",
-    "Competitors and suppliers"
+    "Meeting duration",
+    "Number of subordinates supervised",
+    "Hospital size",
+    "Unit budget"
   ],
   a: 1
 },
 {
   type: "mcq",
-  q: "Which of Fayol’s principles promotes harmony?",
-  options: ["Order", "Team Spirit", "Centralization", "Discipline"],
-  a: 1
+  q: "Which function involves measuring performance and corrective action?",
+  options: ["Planning", "Organizing", "Controlling", "Staffing"],
+  a: 2
 },
 {
   type: "mcq",
-  q: "Paralysis by analysis is related to failure in:",
-  options: ["Communication", "Decision making", "Resource allocation", "Technology"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Management is an Art because it deals with:",
-  options: [
-    "Scientific formulas",
-    "Application of knowledge and skills",
-    "Laboratory experiments",
-    "Standardized machines"
-  ],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Which of these is a human resource?",
-  options: ["Money", "People", "Equipment", "Raw materials"],
+  q: "Which managerial skill increases in importance at top management?",
+  options: ["Technical", "Conceptual", "Manual", "Routine"],
   a: 1
 },
 
-/* ================= TRUE / FALSE ================= */
+/* ================= PART 2 : TRUE / FALSE (21–40) ================= */
 
 { type: "tf", q: "Management is a universal process.", a: true },
-{ type: "tf", q: "Conceptual skills are more important for lower-level managers.", a: false },
-{ type: "tf", q: "Coordination of activities brings harmony.", a: true },
-{ type: "tf", q: "Organizing involves deciding in advance what to do.", a: false },
-{ type: "tf", q: "Authority and responsibility are interdependent.", a: true },
-{ type: "tf", q: "Management is only a science, not an art.", a: false },
-{ type: "tf", q: "First-line managers deal directly with workers.", a: true },
-{ type: "tf", q: "Toxic culture is a cause of management failure.", a: true },
-{ type: "tf", q: "Scalar chain should never be broken.", a: false },
-{ type: "tf", q: "Discipline means obeying organizational rules.", a: true },
-{ type: "tf", q: "Staffing matches jobs with individuals.", a: true },
-{ type: "tf", q: "Efficiency means using maximum resources.", a: false },
-{ type: "tf", q: "Unity of direction means a single plan of action.", a: true },
-{ type: "tf", q: "Top management prepares budgets for all departments.", a: true },
+{ type: "tf", q: "Efficiency means doing the right things.", a: false },
+{ type: "tf", q: "Top management spends more time directing than planning.", a: false },
 { type: "tf", q: "Human skills are equally important at all levels.", a: true },
+{ type: "tf", q: "Conceptual skills involve specialized technical tools.", a: false },
+{ type: "tf", q: "Administration focuses on thinking; management focuses on execution.", a: false },
+{ type: "tf", q: "Division of work leads to specialization.", a: true },
+{ type: "tf", q: "Unity of direction means one head and one plan.", a: true },
+{ type: "tf", q: "Managers are responsible only for their own work.", a: false },
+{ type: "tf", q: "Resources are inputs to the management process.", a: true },
+{ type: "tf", q: "Discipline is not a Fayol principle.", a: false },
+{ type: "tf", q: "First-line managers are supervisors or head nurses.", a: true },
+{ type: "tf", q: "Management failure may occur due to poor planning.", a: true },
+{ type: "tf", q: "Equity means kindness and justice.", a: true },
+{ type: "tf", q: "Informational roles include monitor and spokesperson.", a: true },
+{ type: "tf", q: "Technical skills decrease as managers move higher.", a: true },
+{ type: "tf", q: "Authority and responsibility should be balanced.", a: true },
+{ type: "tf", q: "Scientific management focuses on one best way.", a: true },
+{ type: "tf", q: "Initiative encourages subordinates to carry out plans.", a: true },
+{ type: "tf", q: "Management is only needed in large hospitals.", a: false },
 
-/* ================= THINKING ================= */
+/* ================= PART 3 : CRITICAL THINKING (41–50) ================= */
 
 {
   type: "mcq",
-  q: "A manager excellent technically but poor in resolving conflicts lacks:",
-  options: ["Technical skills", "Conceptual skills", "Human skills", "Financial skills"],
+  q: "Designing a 10-year hospital strategy uses which skill?",
+  options: ["Technical", "Human", "Conceptual", "Diagnostic"],
   a: 2
 },
 {
   type: "mcq",
-  q: "A company has resources but fails to produce results due to failure in:",
-  options: ["Market conditions", "Management", "Raw materials", "Physical strength"],
+  q: "A head nurse weak in conflict resolution lacks:",
+  options: ["Technical", "Human", "Conceptual", "Physical"],
   a: 1
 },
-{ type: "tf", q: "A manager can have authority without responsibility.", a: false },
 {
   type: "mcq",
-  q: "Which scenario violates unity of command?",
+  q: "Conflicting orders from two superiors violate:",
+  options: ["Division of work", "Unity of command", "Scalar chain", "Order"],
+  a: 1
+},
+{ type: "tf", q: "Effective but inefficient means goals achieved with waste.", a: true },
+{
+  type: "mcq",
+  q: "Management is continuous because:",
   options: [
-    "Two employees on one project",
-    "One employee receiving orders from two managers",
-    "One manager supervising ten employees",
-    "A department having two goals"
+    "It never stops while the organization exists",
+    "It happens at night",
+    "It is only planning",
+    "It is done by one person"
   ],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Which management level focuses on a 5-year strategic plan?",
-  options: ["Lower", "Middle", "Top", "All levels"],
-  a: 2
-},
-{
-  type: "mcq",
-  q: "Centralization refers to the degree of:",
-  options: [
-    "City location",
-    "Subordinates involvement in decision making",
-    "Power at lower levels",
-    "Task division"
-  ],
-  a: 1
-},
-{ type: "tf", q: "Efficiency and effectiveness mean the same thing.", a: false },
-{
-  type: "mcq",
-  q: "A supervisor encouraging responsibility practices:",
-  options: ["Order", "Initiative", "Centralization", "Remuneration"],
-  a: 1
-},
-{
-  type: "mcq",
-  q: "Misallocation of resources is failure in:",
-  options: ["Planning/Organizing", "Public relations", "Hobbies", "Physical energy"],
   a: 0
 },
-{ type: "tf", q: "A successful manager combines science with personal judgment.", a: true }
+{
+  type: "mcq",
+  q: "Ignoring information resources leads to:",
+  options: ["Higher efficiency", "Management failure", "Successful planning", "Better staffing"],
+  a: 1
+},
+{
+  type: "mcq",
+  q: "Centralization refers to concentration of:",
+  options: ["Work", "Decision-making authority", "Staffing", "Physical resources"],
+  a: 1
+},
+{ type: "tf", q: "Leader role is informational.", a: false },
+{
+  type: "mcq",
+  q: "Comparing planned vs actual budget is:",
+  options: ["Organizing", "Controlling", "Staffing", "Planning"],
+  a: 1
+},
+{
+  type: "mcq",
+  q: "Right people and materials in right place refers to:",
+  options: ["Equity", "Order", "Stability", "Discipline"],
+  a: 1
+}
 
 ];
+
+console.log(questions.length); // ✅ 50
 
 console.log(questions.length); // ✅ 50
 console.log(questions.length);
