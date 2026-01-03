@@ -67,12 +67,6 @@ const questions = [
 },
 {
   type: "mcq",
-  q: "Who is considered the Father of Scientific Management?",
-  options: ["Henri Fayol", "Frederick Taylor", "Max Weber", "Abraham Maslow"],
-  a: 1
-},
-{
-  type: "mcq",
   q: "The principle of Unity of Command means:",
   options: [
     "All employees work together",
@@ -99,17 +93,7 @@ const questions = [
   ],
   a: 1
 },
-{
-  type: "mcq",
-  q: "Administration is often associated with:",
-  options: [
-    "Lower-level tasks",
-    "Policy-making and determinative functions",
-    "Daily technical work",
-    "Staffing only"
-  ],
-  a: 1
-},
+
 {
   type: "mcq",
   q: "The Scalar Chain principle refers to:",
